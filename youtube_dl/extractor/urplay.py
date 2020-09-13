@@ -6,7 +6,7 @@ from ..utils import unified_timestamp
 
 
 class URPlayIE(InfoExtractor):
-    _VALID_URL = r'https?://(?:www\.)?ur(?:play|skola)\.se/(?:program|Produkter)/(?P<id>[0-9]+)'
+    _VALID_URL = r'https?://(?:www\.)?ur(?:play|skola)\.se/(?:program|Produkter|serie)/(?P<id>[0-9]+)'
     _TESTS = [{
         'url': 'https://urplay.se/program/203704-ur-samtiden-livet-universum-och-rymdens-markliga-musik-om-vetenskap-kritiskt-tankande-och-motstand',
         'md5': 'ff5b0c89928f8083c74bbd5099c9292d',
